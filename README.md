@@ -1,6 +1,6 @@
 # Battery Flyout
 
-Easily switch power modes, keep an eye on your Bluetooth device batteries, and get notified about important battery updates — all in one place
+Easily switch power modes, keep an eye on your Bluetooth device batteries, and get notified about important battery updates—all in one place
 
 <a href="https://apps.microsoft.com/detail/9NNTD8S7RMJV?mode=full">
   <img src="https://get.microsoft.com/images/en-us%20light.svg" width="240"/>
