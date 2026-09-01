@@ -1,0 +1,28 @@
+## [1.5.0] - 2026-09-01
+
+- Migrated the app from UWP to Windows App SDK (WinUI 3) on .NET 10 with Native AOT
+- Added a full native ARM64 build
+- Switched the app to run in Efficiency mode by default
+- Removed third-party dependencies in favor of a custom-built system for handling power and battery events
+- Added support for multiple batteries
+- Added a more detailed chart style for battery levels
+- Added the ability to switch chart colors between the default theme and your system accent color
+- Added detailed technical information for each installed battery to the flyout
+- Added a view of the apps consuming the most power to the flyout
+- Replaced the old battery report with the new Power report, covering battery and system summary, per-battery details, app trends, recommendations, and resource usage
+- Added the option to choose the units used in reports, including energy and temperature
+- Added a new Actions module to automate tasks triggered by specific battery or power events
+- Added a widget for the Windows Widgets board showing battery level and charging status
+- Expanded support for Apple and Samsung devices, with more of them now reporting battery status
+- Added the option to hide the device list when it's empty
+- Updated the Bluetooth device icons shown in the flyout's device list
+- Added the option to completely disable Bluetooth device scanning
+- Added a keyboard shortcut to open the flyout
+- Added the ability to change where the flyout appears on your desktop
+- Added automatic flyout and context menu positioning for the taskbar layout options introduced in the Windows 11 August 2026 update
+- Added the ability to set notifications for any battery level, for both the device and connected Bluetooth devices
+- Added the option to set how long notifications stay on screen
+- Added support for the Polish language
+- Made various minor visual refinements
+- Updated the tray icon font and improved its rendering
+- Made general stability and performance improvements
